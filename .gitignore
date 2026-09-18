@@ -1,0 +1,16 @@
+# MkDocs
+site/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.user
+
+# Build
+bin/
+obj/
