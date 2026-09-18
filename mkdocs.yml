@@ -1,0 +1,45 @@
+site_name: LineScript
+site_description: Текстовый язык разметки для передачи команд от удалённого источника к локальному исполнителю
+site_author: LineScript contributors
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Введение: 01-introduction.md
+  - Синтаксис: 02-syntax.md
+  - Команды: 03-commands.md
+  - Примеры: 04-examples.md
+  - Расширение: 05-extending.md
+  - Транспорт: 06-transport.md
+  - Реализации: 07-implementations.md
+  - Безопасность: 08-security.md
